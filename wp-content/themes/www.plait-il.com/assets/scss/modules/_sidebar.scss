@@ -1,0 +1,13 @@
+.sidebar {
+  @include breakpoint(small) {
+    @include grid-column(12);
+  }
+
+  @include breakpoint(medium) {
+    @include grid-column(4);
+    margin-top: 1rem;
+  }
+  background: #f4f4f4;
+  padding-top: 15px;
+  padding-bottom: 15px
+}

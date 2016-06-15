@@ -1,0 +1,32 @@
+@media screen and (max-width: 1140px){
+    h1.titre-section{
+        font-size: 58px !important;
+    }
+}
+
+@media screen and (max-width: 520px){
+    h1.titre-section{
+        font-size: 42px !important;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 1140px){
+    div.flexslider{
+        h1{
+            font-size: 48px !important;
+            line-height: 48px !important;
+        }
+    }
+    div.section-projets{
+        div.hover-thumbnails{
+            width: 100%;
+        }
+    }
+}
+
+div.section-projets{
+    div.hover-thumbnails{
+        width: 96% !important;
+    }
+}
